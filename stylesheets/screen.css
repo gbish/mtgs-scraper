@@ -87,6 +87,7 @@ body {
   width: 25%;
   height: 100%;
   float: left;
+  overflow: auto;
 }
 #rarities > div > div {
   width: 90%;
@@ -98,7 +99,7 @@ body {
   text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
 }
 #rarities > div p {
-  line-height: 0.85;
+  line-height: 0.9;
   display: block;
 }
 #rarities > div p.left {
@@ -144,5 +145,5 @@ body {
   color: black;
 }
 #rarities a {
-  font-size: 0.7em;
+  font-size: 0.8em;
 }

@@ -39,6 +39,7 @@ body {
 		width: 25%;
 		height: 100%;
 		float: left;
+		overflow: auto;
 		&> div {
 			width: 90%;
 			margin: 0 auto;
@@ -49,7 +50,7 @@ body {
 			text-shadow: 0 0 3px rgba(#000, 0.5);
 		}
 		p {
-			line-height: 0.85;
+			line-height: 0.9;
 			display: block;
 		}
 		p.left {
@@ -82,6 +83,6 @@ body {
 		}
 	}
 	a {
-		font-size: 0.7em;
+		font-size: 0.8em;
 	}
 }
